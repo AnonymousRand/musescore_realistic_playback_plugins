@@ -73,6 +73,7 @@ MuseScore {
                   id: velocityChangeInput
                   implicitHeight: 24
                   placeholderText: "0"
+                  focus: true
                   Keys.onReturnPressed: {
                         applyChanges();
                   }
