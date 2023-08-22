@@ -9,7 +9,7 @@ import QtQuick.Dialogs 1.1
 
 MuseScore {
       menuPath: "Plugins.BulkVelocityChange"
-      description: "This plugin allows increasing of notes' velocities in bulk."
+      description: "This plugin allows changing of notes' velocities in bulk."
       version: "1.0"
       pluginType: "dialog" // required to allow GridLayout to show
       requiresScore: true
