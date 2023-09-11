@@ -24,6 +24,7 @@ MuseScore {
             if ((mscoreMajorVersion < 3) || (mscoreMinorVersion < 3)) {
 	           versionError.open();
                   Qt.quit();
+                  return;
             }
             console.log("Bulk Velocity Change says hello world!");
       }
@@ -35,6 +36,7 @@ MuseScore {
             if (isNaN(offset)) {
                   invalidVelocityInput.open();
                   Qt.quit();
+                  return;
             }
             
             // get selection in MuseScore
@@ -44,6 +46,7 @@ MuseScore {
             for (var i = 0; i < elements.length; i++) {
                   var element = elements[i];
                   if (element.type === Element.NOTE) {
+                        curScore.startCmd(); // required for operation to be undoable
                         element.veloOffset += offset;
                         // clamp note velocities to -127 to 127,
                         // which is the max allowed by MuseScore offset velocity
@@ -52,10 +55,12 @@ MuseScore {
                         } else if (element.veloOffset < -127) {
                               element.veloOffset = -127;
                         }
+                        curScore.endCmd();
                   }
             }
             
             Qt.quit();
+            return;
       }
       
       // UI: main window
