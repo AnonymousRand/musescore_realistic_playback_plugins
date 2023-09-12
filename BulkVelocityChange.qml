@@ -43,10 +43,10 @@ MuseScore {
             var selection = curScore.selection;
             var elements = selection.elements;
             // apply velocity offset to all notes in selection
+            curScore.startCmd(); // required for operation to be undoable
             for (var i = 0; i < elements.length; i++) {
                   var element = elements[i];
                   if (element.type === Element.NOTE) {
-                        curScore.startCmd(); // required for operation to be undoable
                         element.veloOffset += offset;
                         // clamp note velocities to -127 to 127,
                         // which is the max allowed by MuseScore offset velocity
@@ -55,9 +55,9 @@ MuseScore {
                         } else if (element.veloOffset < -127) {
                               element.veloOffset = -127;
                         }
-                        curScore.endCmd();
                   }
             }
+            curScore.endCmd();
             
             Qt.quit();
             return;
