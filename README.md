@@ -18,7 +18,7 @@ Install by simply downloading the code from here and copying the .qml file into 
 
 # Bugs
 - BulkVelocityChange occasionally crashes when plugin hotkey pressed
-- BulkTempoChange changes note head font and makes tempo element un-copyable
+- BulkTempoChange changes note head font and makes tempo element un-copyable (*update: corrupts your score*)
 
 ---
 
