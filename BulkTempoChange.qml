@@ -40,18 +40,11 @@ MuseScore {
             var selection = curScore.selection;
             var elements = selection.elements;
             // apply tempo offset to all tempo text elements in selection
-            // (note that this will make the font of the note head smaller; assumedly you're only doing this on invisible elements where this doesn't matter)
-            /*
-             * WARNING: only works in MuseScore versions (tested in 3.6.2) where a TEMPO_TEXT element is represented in the XML as:
-             * <text><b></b><font face="[font]"></font>[notehead character]<b><font face="[font]"></font> = [tempo]</b></text>
-             * Otherwise string parsing will break and corrupt your file.
-             */
             curScore.startCmd(); // required for operation to be undoable
             for (var i = 0; i < elements.length; i++) {
                   var element = elements[i];
                   if (element.type === Element.TEMPO_TEXT && element.tempoFollowText) {
                         var text = element.text;
-                        console.log("before" + text)
                         const regex_whole = / = [0-9.]+/g;
                         const regex_tempo = /[0-9.]+/g;
                         var tempo = parseFloat((text.match(regex_whole)[0]).match(regex_tempo)[0]) + offset; // parenthesized subexpressions don't seem to work with QML, so double regex it is
