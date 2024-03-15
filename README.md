@@ -17,7 +17,8 @@ Install by simply downloading the code from here and copying the .qml file into 
 - Just a cool niche thing to count how many elements you've selected, when you want to feel like you did something.
 
 # Bugs
-- Occasionally crashes when plugin hotkey pressed
+- BulkVelocityChange occasionally crashes when plugin hotkey pressed
+- BulkTempoChange changes note head font and makes tempo element un-copyable
 
 ---
 
