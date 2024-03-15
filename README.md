@@ -4,20 +4,19 @@ Plugins mainly targeted towards streamlining the realistic playback experience i
 
 Install by simply downloading the code from here and copying the .qml file into the MuseScore plugins folder (C:\Program Files\MuseScore [version]\plugins if on Windows).
 
-## BulkVelocityChange
-Change velocities of notes in bulk.
+### BulkVelocityChange
+- Change velocities of notes in bulk.
 
-## BulkDynamicsVelocityChange
-Change velocities of dynamics in bulk.
+### BulkDynamicsVelocityChange
+- Change velocities of dynamics in bulk.
 
-## BulkTempoChange
-Change velocities of tempo text markings in bulk—their text has to be formatted like the default `[something] = [tempo value]` and their tempo should follow the text.
+### BulkTempoChange
+- Change velocities of tempo text markings in bulk—their text has to be formatted like the default `[something] = [tempo value]` and their tempo should follow the text.
 
-## ElementCounter
-Just a cool niche thing to count how many elements you've selected, when you want to feel like you did something.
+### ElementCounter
+- Just a cool niche thing to count how many elements you've selected, when you want to feel like you did something.
 
 # Bugs
-
 - Occasionally crashes when plugin hotkey pressed
 
 ---
