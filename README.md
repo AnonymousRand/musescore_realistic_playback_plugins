@@ -16,6 +16,10 @@ Change velocities of tempo text markings in bulk—their text has to be formatte
 ## ElementCounter
 Just a cool niche thing to count how many elements you've selected, when you want to feel like you did something.
 
+# Bugs
+
+- Occasionally crashes when plugin hotkey pressed
+
 ---
 
 Thanks to [Articulation and Ornamentation Control](https://github.com/BernardGreenberg/MuseScorePlugins) for both a great QoL tool and a helpful code reference, as well as the MuseScore Plugin API docs.
