@@ -39,14 +39,15 @@ MuseScore {
             // get selection in MuseScore
             var selection = curScore.selection;
             var elements = selection.elements;
-            // apply tempo offset to all tempo text elements in selection
+            const regex_whole = / = [0-9.]+/g;
+            const regex_tempo = /[0-9.]+/g;
+
+            // apply tempo offset to all tempo text elements in selection  
             curScore.startCmd(); // required for operation to be undoable
             for (var i = 0; i < elements.length; i++) {
                   var element = elements[i];
                   if (element.type === Element.TEMPO_TEXT && element.tempoFollowText) {
                         var text = element.text;
-                        const regex_whole = / = [0-9.]+/g;
-                        const regex_tempo = /[0-9.]+/g;
                         var tempo = parseFloat((text.match(regex_whole)[0]).match(regex_tempo)[0]) + offset; // parenthesized subexpressions don't seem to work with QML, so double regex it is
                         element.text = text.replace(regex_whole, " = " + String(tempo));
                   }
