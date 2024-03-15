@@ -19,7 +19,7 @@ Tested in MuseScore 3.6.2.
 - Just a cool niche thing to count how many elements you've selected, when you want to feel like you did something.
 
 # Bugs
-- BulkVelocityChange occasionally crashes when plugin hotkey pressed
+- BulkVelocityChange and BulkDynamicsVelocityChange occasionally crash when plugin hotkey pressed
 
 # Fixed bugs
 - BulkTempoChange no longer corrupts your entire score due to string parsing oversights
