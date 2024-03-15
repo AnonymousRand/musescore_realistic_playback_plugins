@@ -4,6 +4,8 @@ Plugins mainly targeted towards streamlining the realistic playback experience i
 
 Install by simply downloading the code from here and copying the .qml file into the MuseScore plugins folder (`C:\Program Files\MuseScore [version]\plugins` if on Windows).
 
+Tested in MuseScore 3.6.2.
+
 ### BulkVelocityChange
 - Change velocities of notes in bulk.
 
