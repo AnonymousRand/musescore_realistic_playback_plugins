@@ -21,4 +21,4 @@ Install by simply downloading the code from here and copying the .qml file into 
 
 ---
 
-Thanks to [Articulation and Ornamentation Control](https://github.com/BernardGreenberg/MuseScorePlugins) for both a great QoL tool and a helpful code reference, as well as the MuseScore Plugin API docs.
+Thanks to [Articulation and Ornamentation Control](https://github.com/BernardGreenberg/MuseScorePlugins) for both a great QoL tool and a helpful code reference.
