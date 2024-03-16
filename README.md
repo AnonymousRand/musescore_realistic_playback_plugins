@@ -13,7 +13,7 @@ Tested in MuseScore 3.6.2.
 - Change velocities of dynamics in bulk.
 
 ### BulkTempoChange
-- Change velocities of tempo text markings in bulk—their text has to be formatted like the default `[something] = [tempo value]` and their tempo should follow the text.
+- Change velocities of tempo text markings in bulk—their text has to be formatted like the default `[something] = [tempo value]` and their tempo should follow the text. Note: doesn't seem to go below 5 bpm.
 
 ### ElementCounter
 - Just a cool niche thing to count how many elements you've selected, when you want to feel like you did something.
@@ -23,6 +23,7 @@ Tested in MuseScore 3.6.2.
 
 # Fixed bugs
 - BulkTempoChange no longer corrupts your entire score due to string parsing oversights
+- BulkTempoChange now automatically refreshes tempo from text
 
 ---
 
