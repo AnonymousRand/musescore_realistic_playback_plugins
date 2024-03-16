@@ -50,6 +50,8 @@ MuseScore {
                         var text = element.text;
                         var tempo = parseFloat((text.match(regex_whole)[0]).match(regex_tempo)[0]) + offset; // parenthesized subexpressions don't seem to work with QML, so double regex it is
                         element.text = text.replace(regex_whole, " = " + String(tempo));
+                        element.tempoFollowText = false; // refresh
+                        element.tempoFollowText = true;
                   }
             }
             curScore.endCmd();
