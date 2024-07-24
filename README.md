@@ -7,17 +7,17 @@ Install by simply downloading the code from here and copying the .qml file into 
 Tested in MuseScore 3.6.2.
 
 ### BulkVelocityChange
-- Change velocities of notes in bulk.
+- Change velocities of notes in bulk
 
 ### BulkDynamicsVelocityChange
-- Change velocities of dynamics in bulk.
+- Change velocities of dynamics in bulk
 
 ### BulkTempoChange
-- Change velocities of tempo text markings in bulk—their text has to be formatted like the default `[something] = [tempo value]` and their tempo should follow the text.
-- Note: doesn't seem to go below 5 bpm.
+- Change velocities of tempo text markings in bulk—their text has to be formatted like the default `[something] = [tempo value]` and their tempo should follow the text
+- Note: doesn't seem to go below 5 bpm
 
 ### ElementCounter
-- Just a cool niche thing to count how many elements you've selected, when you want to feel like you did something.
+- Just a cool niche thing to count how many elements you've selected, when you want to feel like you did something
 
 # Bugs
 - BulkVelocityChange and BulkDynamicsVelocityChange occasionally crash when plugin hotkey pressed
