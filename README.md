@@ -1,12 +1,14 @@
-# MuseScore 3.3+ plugins
+# MuseScore-Realistic-Playback-Plugins
 
 Plugins mainly targeted towards streamlining the realistic playback experience in MuseScore. No longer will you have to manually increase the tempo of a hundred rubato adjustments by 2 each, or increase the offset velocity of a bunch of notes all with different velocities by 5.
 
 # Installation guide
 
+These plugins require at least MuseScore 3.3; and they not guaranteed to work in MuseScore 4. MuseScore 4 is terrible for realistic playback anyway, since they reworked my precious offset velocity system :(
+
 Install by simply downloading the code from here and copying the .qml file into the MuseScore plugins folder (`C:\Program Files\MuseScore [version]\plugins` if on Windows).
 
-Tested in MuseScore 3.6.2; not guaranteed to work in MuseScore 4. MuseScore 4 is terrible for realistic playback anyway, since they reworked my precious offset velocity system :(
+# Plugin list
 
 ### BulkVelocityChange
 - Change velocities of notes in bulk
