@@ -24,7 +24,7 @@ Install by simply downloading the `.qml` files from here and copying them into t
 - Just a cool niche thing to count how many elements you've selected, when you want to feel like you did something
 
 # Bugs
-- BulkVelocityChange and BulkDynamicsVelocityChange occasionally crash when plugin hotkey pressed
+- bulk-note-velocity-change and bulk-dynamics-velocity-change occasionally crash when plugin hotkey pressed
 
 # Fixed bugs
 - BulkTempoChange no longer corrupts your entire score due to string parsing oversights
