@@ -1,12 +1,9 @@
-/* Thanks to the makers of the Articulation and Ornamentation Control plugin
- (https://github.com/BernardGreenberg/MuseScorePlugins) for code reference */
-
 import QtQuick 2.0
 import MuseScore 3.0
 import QtQuick.Dialogs 1.1
 
 MuseScore {
-      menuPath: "Plugins.ElementCounter"
+      menuPath: "Plugins.element_counter"
       description: "This plugin prints out the number of elements selected."
       version: "1.0"
       requiresScore: true
@@ -19,7 +16,7 @@ MuseScore {
                   return;
             }
             
-            console.log("Element Counter says hello world!");
+            console.log("element_counter says hello world!");
             
              // get selection in MuseScore
             var selection = curScore.selection;
