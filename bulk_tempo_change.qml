@@ -5,7 +5,7 @@ import QtQuick.Layouts 1.1
 import QtQuick.Dialogs 1.1
 
 MuseScore {
-      menuPath: "Plugins.BulkTempoChange"
+      menuPath: "Plugins.bulk_tempo_change"
       description: "This plugin allows changing of tempo texts' tempos in bulk."
       version: "1.0"
       pluginType: "dialog" // required to allow GridLayout to show
@@ -23,7 +23,7 @@ MuseScore {
                   Qt.quit();
                   return;
             }
-            console.log("Bulk Tempo Change says hello world!");
+            console.log("bulk_tempo_change says hello world!");
       }
       
       function applyChanges() {
