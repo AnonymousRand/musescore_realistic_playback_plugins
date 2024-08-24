@@ -10,14 +10,14 @@ Install by simply downloading the code from here and copying the .qml file into 
 
 # Plugin list
 
-### BulkVelocityChange
+### bulk-note-velocity-change
 - Change velocities of notes in bulk
 
-### BulkDynamicsVelocityChange
+### bulk-dynamics-velocity-change
 - Change velocities of dynamics in bulk
 
-### BulkTempoChange
-- Change velocities of tempo text markings in bulk—their text has to be formatted like the default `[something] = [tempo value]` and their tempo should follow the text
+### bulk-tempo-change
+- Change tempo of tempo text markings in bulk—their text has to be formatted like the default `[something] = [tempo value]` and their tempo should follow the text
 - Note: doesn't seem to go below 5 bpm
 
 ### ElementCounter
