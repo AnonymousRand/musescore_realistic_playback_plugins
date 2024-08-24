@@ -1,10 +1,12 @@
 # MuseScore 3.3+ plugins
 
-Plugins mainly targeted towards streamlining the realistic playback experience in MuseScore (imagine having to manually increase the tempo of thousands of rubato markings by 2 each, or trying to increase the offset velocity of a bunch of notes all with different velocities by 5).
+Plugins mainly targeted towards streamlining the realistic playback experience in MuseScore. No longer will you have to manually increase the tempo of a hundred rubato adjustments by 2 each, or increase the offset velocity of a bunch of notes all with different velocities by 5.
+
+# Installation guide
 
 Install by simply downloading the code from here and copying the .qml file into the MuseScore plugins folder (`C:\Program Files\MuseScore [version]\plugins` if on Windows).
 
-Tested in MuseScore 3.6.2.
+Tested in MuseScore 3.6.2; not guaranteed to work in MuseScore 4.
 
 ### BulkVelocityChange
 - Change velocities of notes in bulk
