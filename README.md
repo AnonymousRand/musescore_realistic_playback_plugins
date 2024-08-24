@@ -6,7 +6,7 @@ Plugins mainly targeted towards streamlining the realistic playback experience i
 
 Install by simply downloading the code from here and copying the .qml file into the MuseScore plugins folder (`C:\Program Files\MuseScore [version]\plugins` if on Windows).
 
-Tested in MuseScore 3.6.2; not guaranteed to work in MuseScore 4.
+Tested in MuseScore 3.6.2; not guaranteed to work in MuseScore 4. MuseScore 4 is terrible for realistic playback anyway, since they reworked my precious offset velocity system :(
 
 ### BulkVelocityChange
 - Change velocities of notes in bulk
