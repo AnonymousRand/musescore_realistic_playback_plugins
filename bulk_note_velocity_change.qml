@@ -1,6 +1,3 @@
-/* Thanks to the makers of the Articulation and Ornamentation Control plugin
- (https://github.com/BernardGreenberg/MuseScorePlugins) for code reference */
-
 import QtQuick 2.0
 import MuseScore 3.0
 import QtQuick.Controls 1.1
@@ -8,7 +5,7 @@ import QtQuick.Layouts 1.1
 import QtQuick.Dialogs 1.1
 
 MuseScore {
-      menuPath: "Plugins.BulkVelocityChange"
+      menuPath: "Plugins.bulk_note_velocity_change"
       description: "This plugin allows changing of notes' velocities in bulk."
       version: "1.0"
       pluginType: "dialog" // required to allow GridLayout to show
@@ -26,7 +23,7 @@ MuseScore {
                   Qt.quit();
                   return;
             }
-            console.log("Bulk Velocity Change says hello world!");
+            console.log("bulk_note_velocity_change says hello world!");
       }
       
       function applyChanges() {
