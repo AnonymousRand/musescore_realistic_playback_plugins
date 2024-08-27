@@ -25,6 +25,7 @@ Install by simply downloading the `.qml` files from here and copying them into t
 
 # Bugs
 - bulk-note-velocity-change and bulk-dynamics-velocity-change occasionally crash when plugin hotkey pressed
+- bulk-note-velocity-change can apply the velocity change twice if it lags; just double-check after running it
 
 # Fixed bugs
 - BulkTempoChange no longer corrupts your entire score due to string parsing oversights
