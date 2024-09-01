@@ -24,12 +24,8 @@ Install by simply downloading the `.qml` files from here and copying them into t
 - Just a cool niche thing to count how many elements you've selected, when you want to feel like you did something
 
 # Bugs
-- bulk-note-velocity-change and bulk-dynamics-velocity-change occasionally crash when plugin hotkey pressed
-- bulk-note-velocity-change can apply the velocity change twice if it lags; just double-check after running it
-
-# Fixed bugs
-- BulkTempoChange no longer corrupts your entire score due to string parsing oversights
-- BulkTempoChange now automatically refreshes tempo from text
+- bulk-note-velocity-change and bulk-dynamics-velocity-change occasionally crash when plugin hotkey pressed; seems to be an OpenGL error?
+- bulk-note-velocity-change can apply the velocity change multiple times if it lags; just double-check after running it
 
 ---
 
