@@ -6,7 +6,7 @@ Plugins mainly targeted towards streamlining the realistic playback experience i
 
 These plugins require at least MuseScore 3.3; but I have so little faith that they will work in MuseScore 4 that I didn't even bother to download it for testing. MuseScore 4 is terrible for realistic playback anyway, since they reworked my precious offset velocity system :(
 
-Install by simply downloading the `.qml` files from here and copying them into the MuseScore plugins folder (`C:\Program Files\MuseScore [version]\plugins\` on Windows, `/i/d/k/` on Linux, `macs/are/overrated` on Mac).
+Install by simply downloading the `.qml` files from here and copying them into the MuseScore plugins folder (`C:\Program Files\MuseScore [version]\plugins\` on Windows, `/i/d/k/` on Linux, `macs/are/overrated/` on Mac).
 
 # Plugin list
 
