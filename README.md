@@ -1,4 +1,4 @@
-# MuseScore-Realistic-Playback-Plugins
+# MuseScore Realistic Playback Plugins
 
 Plugins mainly targeted towards streamlining the realistic playback experience in MuseScore. No longer will you have to manually increase the tempo of a hundred rubato adjustments by 2 each, or increase the offset velocity of a bunch of notes all with different velocities by 5.
 
